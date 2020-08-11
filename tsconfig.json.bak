@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "rootDir": "src",
+        "lib": [
+            "esnext"
+        ],
+        "strict": false
+    },
+    "typeRoots": [
+        "./src/types",
+        "../../node_modules/@types"
+    ],
+    "include": [
+        "src/**/*"
+    ]
+}

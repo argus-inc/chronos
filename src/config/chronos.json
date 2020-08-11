@@ -1,0 +1,14 @@
+[
+    {
+        "path": "/Users/pixium/Personal/chronos/cron/index.js",
+        "recurrence": "*/5 * * * *",
+        "command": "node",
+        "name": "MyApi"
+    },
+    {
+        "path": "/Users/pixium/Personal/chronos/cron/index2.js",
+        "recurrence": "*/5 * * * *",
+        "command": "node",
+        "name": "MyApi"
+    }
+]

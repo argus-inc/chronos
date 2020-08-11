@@ -1,6 +1,6 @@
 {
   "name": "@argus-inc/chronos",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple node library for adding and managing cronjobs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

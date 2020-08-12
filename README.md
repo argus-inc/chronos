@@ -10,13 +10,13 @@ Chronos is a simple tool that let's you control and handle simple javascript cro
 
 **Yarn:**
 
-```
+```sh
 yarn add https://github.com/argus-inc/chronos
 ```
 
 **NPM:**
 
-```
+```sh
 npm install @argus-inc/chronos
 ```
 
@@ -35,7 +35,7 @@ For each cron you will have to specify: `path, recurrence, command, name`
 
 **name:** Name of the cron
 
-```
+```json
 [
     {
         "path": "/Users/xxx/programs/myProgram/cron/index.js",
@@ -56,7 +56,7 @@ For each cron you will have to specify: `path, recurrence, command, name`
 
 You can then add this command as a script to your `package.json`.
 
-```
+```json
 "scripts": {
     "cron": "yarn run chronos --config=src/config/chronos.json",
 },
